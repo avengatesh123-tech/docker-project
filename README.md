@@ -107,7 +107,7 @@ docker compose exec data_producer python data_producer.py \
   --pg-pass root \
   --pg-host pgdatabase \
   --pg-port 5432 \
-  --pg-db ny_taxi \
+  --pg-db airline \
   --target-table flights
 
 # Access pgAdmin
